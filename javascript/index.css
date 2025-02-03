@@ -1,0 +1,19 @@
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:540px;
+    background-color: antiquewhite;
+
+}
+h3{
+    border: solid black 3px;
+    height: 200px;
+    width: 400px;
+    background-color: azure;
+}
+.yello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

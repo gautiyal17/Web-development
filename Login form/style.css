@@ -1,0 +1,88 @@
+.formcontainer{
+    border: 2px solid black;
+    height:400px;
+    width: 430px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    background-color:transparent;
+    border-radius: 20px;
+    box-shadow:10px 10px 50px black;
+    backdrop-filter: blur(5px);
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: url(Paris\ 🗼.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    margin-top: 10px;
+    text-decoration-line: underline;
+}
+.data{
+    font-size: 20px; 
+}
+#email{
+    height: 30px;
+    width: 350px;
+    border-bottom: 2px solid black;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 15px; 
+}
+#password{
+    height: 30px;
+    width: 350px;
+    border-bottom: 2px solid black;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none; 
+    font-size: 15px; 
+
+}
+.email{
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+.pass{
+    font-weight: bold;
+    font-size: 22px;
+}
+.register{
+    font-size: 17px;
+}
+button{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color:white;
+}
+button a{
+    color:black;
+    font-weight: 500px;
+    text-decoration: none;
+    font-size: 15px;
+}
+button:hover{
+    transform: scale(1.01);
+}
+.account{
+    font-size:17px;
+}
