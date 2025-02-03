@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box{
+            background-color:bisque;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            transition-property:all;
+            /* transition-delay: 1s; */
+            transition-duration: 5s;
+            transition-timing-function: linear;
+
+        }
+        .box:hover{
+            background-color: aquamarine;
+            width: 500px;
+            height: 500px;
+            /* border-radius: 500px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        hey boi
+    </div>
+</body>
+</html>

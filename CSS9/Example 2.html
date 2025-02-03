@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: bisque;
+            border: 3px solid black;
+            width: 670px;
+            display: flex;
+            flex-direction: row;
+        }
+        .box1{
+            border: 2px solid darkblue;
+            margin: 5px;
+            padding: 3px;
+            width: 320px;
+        }
+        p{
+            border: 2px solid green;
+            width: 300px;
+        }
+        .box2{
+            border: 2px solid black;
+            background-color:whitesmoke;
+            margin: 5px;
+            padding:5px;
+            height: 190px;
+            width: 280px;
+        }
+        @media (max-width:640px){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, illum sunt. Corporis accusamus
+                dolore esse ipsum, dolor repellendus, aspernatur, nemo itaque officiis libero doloribus ipsam nam!
+                Libero, nihil. Temporibus, ipsum?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores doloribus sed natus laboriosam.
+                Voluptate recusandae laudantium illum ut veniam incidunt debitis ipsa quidem fugit quibusdam?</p>
+        </div>
+
+        <div class="box2">
+            <img src="paris.jpg" alt="paris image">
+        </div>
+
+    </div>
+</body>
+
+</html>

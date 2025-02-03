@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: bisque;
+            height: 100vh;
+            width: 100vw, ;
+            border: 3px solid black;
+
+        }
+
+        .box {
+            background-color: aquamarine;
+            border: 2px solid black;
+            width: 100px;
+            height: 50px;
+            margin: 10px;
+            position: relative;
+            animation-name: namebox;
+            animation-duration: 7s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function:linear;
+            animation-direction:alternate;
+
+        }
+            
+
+        @keyframes namebox {
+            from {
+                top: 0;
+                left: 0;
+            }
+
+            to {
+                top: 0;
+                left: 1100px;
+            }
+
+        }
+        .box2{
+            background-color: aquamarine;
+            border: 2px solid black;
+            width: 100px;
+            height: 50px;
+            margin: 10px;
+            position: relative;
+            animation-name: namebox2;
+            animation-duration: 7s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function:linear;
+            animation-direction:alternate;
+
+        }
+        
+        @keyframes namebox2 {
+            from {
+                top: 320px;
+                left: 1100px;
+            }
+
+            to {
+                top: 320px;
+                left: 0;
+            }
+
+        }
+        .circle{
+            background-color: aquamarine;
+            border: 2px solid black;
+            border-radius: 50px;
+            width: 90px;
+            height: 90px;
+            margin: 10px;
+            top: 150px;
+            left: 535px;
+            position: relative;
+            animation-name: circle;
+            /* animation-duration: 7s;
+            animation-delay: 1s;
+            /* animation-iteration-count: infinite;
+            animation-timing-function:linear;
+            animation-direction:alternate; */ */
+
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box">
+            Hi Anshul
+        </div>
+        <div class="circle">
+           
+        </div>
+        <div class="box2">
+            Hi Manjika
+        </div>
+        
+
+    </div>
+</body>
+
+</html>
